@@ -1,0 +1,81 @@
+[gd_scene format=2]
+
+[node name="Node" type="Node"]
+
+[node name="guardar_como_escena" type="Label" parent="."]
+margin_left = 542.0
+margin_top = 5.0
+margin_right = 889.0
+margin_bottom = 53.0
+size_flags_vertical = 0
+text = "Pueden crear subestructuras sobre una misma escena
+Luego click derecho en el nodo principal del grupo
+Guardar rama como escena para separarla"
+
+[node name="variables_exportadas" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 519.0
+margin_right = 352.0
+margin_bottom = 567.0
+size_flags_vertical = 0
+text = "El nodo player tiene todas las variables exportadas
+Pero conviene sólo las que tengan sentido para diseñadores"
+
+[node name="animation_player" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 183.0
+margin_right = 468.0
+margin_bottom = 231.0
+size_flags_vertical = 0
+text = "AnimationPlayers son como Tweens interactivos
+Pueden animar cualquier parámetro de un Object"
+
+[node name="tool_mode" type="Label" parent="."]
+margin_left = -330.0
+margin_top = 370.0
+margin_right = 54.0
+margin_bottom = 418.0
+size_flags_vertical = 0
+text = "Tool mode usado en modo muy simple
+La información visual puede ayudar a diseñadores
+Se puede ejecutar código complejo en tool mode"
+
+[node name="tool_mode_2" type="Label" parent="."]
+margin_left = -387.0
+margin_top = 443.0
+margin_right = -3.0
+margin_bottom = 491.0
+size_flags_vertical = 0
+text = "En algunos casos, para que un nuevo script en tool mode inicie
+Hay que recargar el proyecto"
+
+[node name="placeholders" type="Label" parent="."]
+margin_left = -566.0
+margin_top = 4.0
+margin_right = -31.0
+margin_bottom = 52.0
+size_flags_vertical = 0
+text = "Los comentarios están cargados como temporales (placeholder)
+Esto permite que estén reemplazados por un InstancePlaceholder en runtime
+El InstancePlaceholder se puede revertir a la escena original en cualqueir momento"
+
+[node name="grupos" type="Label" parent="."]
+margin_left = 33.0
+margin_top = -76.0
+margin_right = 568.0
+margin_bottom = -28.0
+size_flags_vertical = 0
+text = "El único grupo usado aquí es el Player
+Los grupos son muy útiles como vieron en la documentación"
+
+[node name="proyecto" type="Label" parent="."]
+margin_left = 558.0
+margin_top = 236.0
+margin_right = 1139.0
+margin_bottom = 301.0
+size_flags_vertical = 0
+text = "La estructura para proyectos recomendada en Godot es aproximadamente como la de este
+
+Cada objeto en un directorio que lo represente, junto con sus scripts y assets
+Puede sonar raro pero termina siendo mucho más ordenado cuando el proyecto crece"
+
